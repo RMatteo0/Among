@@ -7,20 +7,19 @@ nav ul {
   background-color: #333;                 /* La couleur */
   font-size: 20px;                        /* La taille */
   box-shadow: 0 4px 6px rgba(0,0,0,0.5);  /* Ajoute de l'ombre */
+  position: fixed;                        /* Pour qu'elle ne bouge pas */
   top: 0;                                 /* Ces trois commandes sont là pour définir son emplacement sur le haut de ma page */
   left: 0;
   right: 0; 
   padding-top: 10px;                      /*Je défini la hauteur de ma barre de navigation */
   padding-bottom: 10px;                   /*Je défini la largeur de ma barre de navigation */
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
+  z-index: 9999;                          /* Je m'assure qu'elle est au dessus de tt car il y avait un problème avec mes vidéos */
 }
 
 /* Met les balise li contenu dans la balise nav à gauche */
 
 nav li {
+  float: left;                            /* Ils doivent s'aligner horizontalement */
   border-right: 1px solid #bbb;           /* Ajoute une bordure entre chaque élément de la barre de navigation */
 }
 
@@ -30,9 +29,8 @@ nav li a {
   display: block;
   color: white;
   text-align: center;
-  padding: 8px 12px;
+  padding: 16px 16px;
   text-decoration: none;
-  font-size: 16px;
 }
 
 /* Conserne les bouttons et défini leurs aspects visuel */
@@ -60,13 +58,14 @@ button:hover {
 
 body {
   background-color: #333333;
+  padding-top: 100px; /* Sert à éviter que du texte se retrouve en desous de la barre de navigation*/
 }
 
 body p{
   display: block;
   color: white;
   text-align: left;
-  padding: 6px 30px;
+  padding: 14px 16px;
   text-decoration: none;
   font-size: 23px;
 }
@@ -129,8 +128,8 @@ body a {
 }
 
 .contenu{
-	padding-left : 4%;
-	padding-right : 4%;
+	padding-left : 8%;
+	padding-right : 8%;
 }
 
 /*rendre le site acceccible pour les téléphones*/
@@ -167,5 +166,17 @@ nav {
   }
   h1, h2, h3, p {
     font-size: 1rem; /* ajuster les textes */
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;    /* empile les liens verticalement */
+    padding: 5px 0;            /* réduire la hauteur de la barre */
+  }
+
+  nav li a {
+    padding: 10px 8px;         /* padding réduit pour mobile */
+    font-size: 14px;            /* texte plus petit pour s’adapter à l’écran */
   }
 }
