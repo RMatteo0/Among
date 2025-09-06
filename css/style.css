@@ -131,3 +131,40 @@ body a {
 	padding-left : 8%;
 	padding-right : 8%;
 }
+
+/*rendre le site acceccible pour les téléphones*/
+
+/* Conteneur principal */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Images et vidéos adaptatives */
+img, video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Texte lisible sur mobile */
+body {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+/* Menu / navigation */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Media queries pour écran ≤ 768px */
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+  }
+  h1, h2, h3, p {
+    font-size: 1rem; /* ajuster les textes */
+  }
+}
