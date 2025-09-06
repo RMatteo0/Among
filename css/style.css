@@ -12,6 +12,10 @@ nav ul {
   right: 0; 
   padding-top: 10px;                      /*Je défini la hauteur de ma barre de navigation */
   padding-bottom: 10px;                   /*Je défini la largeur de ma barre de navigation */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 }
 
 /* Met les balise li contenu dans la balise nav à gauche */
@@ -56,7 +60,6 @@ button:hover {
 
 body {
   background-color: #333333;
-  padding-top: 100px; /* Sert à éviter que du texte se retrouve en desous de la barre de navigation*/
 }
 
 body p{
