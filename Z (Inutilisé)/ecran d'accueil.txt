@@ -1,0 +1,50 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title> Le volley une passion ! </title>
+	</head>
+	<body>
+		<h1> Le volley plus qu'un sport : Une passion ! </h1>
+		<br>
+		<h2> Les règles </h2>
+		<p> 6 personnes par équipe, un filet au milieu et c’est parti pour un match !</p>
+		<p>	Pour marquer un point, vous devez faire tomber la balle dans le camp adverse ou provoquer une faute de l’adversaire.
+			Et pour commencer, vous ne pouvez jamais toucher le filet, sans quoi vous perdez le point. Facile, non ? </p>
+		<p>Vous avez le droit à 3 touches de balle en plus du contre pour renvoyer le ballon dans le camp adverse.</p>
+		<p>	Chaque échange se finit par un point marqué d’un côté ou de l’autre : vous marquez un point ou vous donnez un point. </p>
+		<p>L’équipe qui marque effectue le service suivant. Si c’est à votre tour, vous servez tant que votre équipe marque. 
+			C’est donc le bon moment pour enchaîner les aces ! </p>
+		<p>Si vous balancez directement la balle dans le filet, l’adversaire marque le point et c’est à un nouveau joueur ou une nouvelle joueuse de l’équipe adverse de servir.</p>
+		<p>	Pas besoin de chronomètre, la première équipe à 25 points remporte le set. Mais place au suspens : tant qu’il n’y a pas deux points d’écart, le set continue.</p>
+		<p>	Vous devez remporter 3 sets pour gagner le match. En cas d’égalité à 2 sets partout, le dernier set se joue au Tie Break : 15 points et plus de temps-mort ! Ça va plus vite et c’est bon pour les nerfs. </p>
+		<h2> Les différentes actions </h2>
+		<ul>
+			<h4> Le service :<h4>
+			<p> Il est la toute première action de chaque point et consiste a envoyer la balle de l'autre côté du filet de préfèrance en mettant l'adversaire en difficulté </p>
+			<p> il peut être exécuté de différentes manières mais les plus courantes sont celle-ci : </p>
+			<p> La cuillère </p> 
+			<br>
+			<p> Le service par le haut </p>
+			<br>
+			<p> Et enfin le plus impressionant le service smatché </p>
+			<br>
+			<h4> La réception :<h4>
+			<p> Elle vient après le service et consiste à réceptionner le ballon de n'importe qu'elle façon en direction du passeur pour faciliter les actions des coéquipier </p>
+			<p> Elle peut se faire de n'importe qu'elle manière mais elle est généralement effectuée de cette manière :</p>
+			<br>
+			<h4> La passe :<h4>
+			<p> Juste après la réception le passeur effectue une passe en direction de l'attaquant pour qu'il puisse concrétiser </p>
+			<p> Il faut quand même se méfier du passeur car une seconde main est vite arrivée (C'est lorsque le passeur décide de faire passer la balle lui même de l'autre côté sans attaquant juste en la poussant légèrement ce qui est parfois destructeur)</p>
+			<h4> L'attaque : <h4>
+			<p> Sûrement le plus impressionant et le plus satisefaisant à voir, elle consiste comme vous devez le deviner à envoyer avec l'intention de marquer la balle dans le camp adverse </p>
+			<h4> Le contre : <h4>
+			<p> Moins connu mais tout aussi impressionant il a pour but de renvoyer la balle ou d'attenuer l'attaque de façon à allégerle travail des coéquipier qui derrière font la réception </p> 
+			<p> Ensuite le cycle recommence à partir de la réception jusqu'à qu'une des équipes ne cède </p>
+		</ul>
+		<h2> Pourquoi commencer le volley ? </h2>
+		<p> parce que </p>
+		<h2> Vous n'arrivez pas à vous décidez ? </h2>
+		
+	</body>
+</html>

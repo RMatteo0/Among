@@ -1,0 +1,133 @@
+/*défini un fond pour le balises */
+nav ul {
+  list-style-type: none;                      
+  margin: 0;                              /* La position vers le haut de la barre */
+  padding: 0;
+  overflow: hidden;                          
+  background-color: #333;                 /* La couleur */
+  font-size: 20px;                        /* La taille */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);  /* Ajoute de l'ombre */
+  position: fixed;                        /* Pour qu'elle ne bouge pas */
+  top: 0;                                 /* Ces trois commandes sont là pour définir son emplacement sur le haut de ma page */
+  left: 0;
+  right: 0; 
+  padding-top: 10px;                      /*Je défini la hauteur de ma barre de navigation */
+  padding-bottom: 10px;                   /*Je défini la largeur de ma barre de navigation */
+  z-index: 9999;                          /* Je m'assure qu'elle est au dessus de tt car il y avait un problème avec mes vidéos */
+}
+
+/* Met les balise li contenu dans la balise nav à gauche */
+
+nav li {
+  float: left;                            /* Ils doivent s'aligner horizontalement */
+  border-right: 1px solid #bbb;           /* Ajoute une bordure entre chaque élément de la barre de navigation */
+}
+
+/* Concerne la couleur du texte de la balise nav et leurs centrage */
+
+nav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+/* Conserne les bouttons et défini leurs aspects visuel */
+
+button {  /* Cela permet de définir l'aspect de mon boutton */
+    padding: 14px 20px;    
+    font-size: 25px;               
+	background-color: #333;
+	color : white;
+	margin-left: 5px;
+	margin-right: 5px;
+	box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* petite ombre */
+}
+
+/* Change la couleur quand la souris passe dessus */
+nav li a:hover {
+  background-color: #606060;
+}
+
+button:hover {
+  background-color: #606060;
+}
+
+/*Change la couleur de fond du body */
+
+body {
+  background-color: #333333;
+  padding-top: 100px; /* Sert à éviter que du texte se retrouve en desous de la barre de navigation*/
+}
+
+body p{
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 23px;
+}
+
+body h1{
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #ff8000;
+  font-size: 35px;
+}
+
+body h2{
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  background-color: #ff8000 ;
+}
+body h3{
+  background-color: #ff8000;
+  font-size: 30px;
+  color: white;
+  padding: 8px 16px;
+}
+
+body h4 {
+  background-color: #606060;
+  font-size: 25px;
+  color: white;
+  padding: 6px 16px;
+}
+/* Seulement créé pour le 3ème titre de la page d'accueil (h5)*/
+body h5 {
+  background-color: #606060;
+  font-size: 30px;
+  color: white;
+  padding: 10px 16px;
+}
+
+body li{
+  display: block;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+body u {
+  background-color: #ff8000;
+  font-size: 20px;
+  color: white;
+}
+
+body a {
+	color : white;
+}
+
+.contenu{
+	padding-left : 8%;
+	padding-right : 8%;
+}
